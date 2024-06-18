@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const blogPosts = JSON.parse(localStorage.getItem("blogPosts")) || [];
                 blogPosts.push({ username, title, content });
                 localStorage.setItem("blogPosts", JSON.stringify(blogPosts));
-                window.location.href = "posts.html";
+                window.location.href = "post.html";
             }
         });
     }
